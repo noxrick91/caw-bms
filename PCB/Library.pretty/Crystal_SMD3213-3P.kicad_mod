@@ -1,0 +1,313 @@
+(footprint "Crystal_SMD3213-3P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "内置负载电容的无源晶振，3PIN")
+	(property "Reference" "REF**"
+		(at 0 -3.207 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "54fd2314-2508-4c2d-b468-4e1505290b53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Crystal_16MHz_15pF_3P"
+		(at 0 -0.667 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37f0ba55-2aa6-4d38-bd0b-62fb80b7d157")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Datasheet" "http://www.szlcsc.com/product/details_318913.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f4cbfb3-f20c-4bc4-8e52-1d16fb879995")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1d77487-ed33-4b35-b473-a6dff92adb5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SuppliersPartNumber" "C341521"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e012984-40b6-4435-9e01-6c612ea2bda4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "uuid" "std:1df7711bb7514091887d101c9f54bf51"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "650d976f-8690-4fd3-955a-1cb281f291f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "muRata"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9406fd64-7879-4307-b1d3-a410b3a57b3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Product Number" "CSTNE16M0V530000R0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96c37f4d-9ca0-4b1b-96e5-df4548b41533")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC Part Number" "C341521"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa34990c-9f5c-45ce-b0cd-7d369dffcbee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC URL" "https://item.szlcsc.com/318913.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "609fd4a3-cbcc-40e4-a3b4-423764b61fbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.753 -0.635)
+		(end -1.753 0.665)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02df9204-a932-454a-8cce-c29a83c024d5")
+	)
+	(fp_line
+		(start -0.718 -0.65)
+		(end -0.481 -0.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a12b0bc4-99e3-4ed4-a141-fc3274152365")
+	)
+	(fp_line
+		(start -0.718 0.65)
+		(end -0.481 0.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d68ec52-b117-40e4-b6c5-78318ce91cce")
+	)
+	(fp_line
+		(start 0.481 -0.65)
+		(end 0.718 -0.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6590996d-a798-41b3-8702-5fa918a9defc")
+	)
+	(fp_line
+		(start 0.481 0.65)
+		(end 0.718 0.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24d67b54-05ea-4be8-ba21-f9710f81551a")
+	)
+	(fp_line
+		(start 1.753 0.635)
+		(end 1.753 -0.665)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7afb8943-3159-4362-8dd3-0955bdf3b123")
+	)
+	(fp_circle
+		(center -1.6 0.65)
+		(end -1.57 0.65)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "Eco2.User")
+		(uuid "3f067d3e-cc68-46b1-84c7-20fded9423bf")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -0.65) (xy -1 0.65) (xy -1.4 0.65) (xy -1.4 -0.65)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Eco2.User")
+		(uuid "f947a6f1-6b3e-49e5-8b8b-430cce13bc46")
+	)
+	(fp_poly
+		(pts
+			(xy 0.2 -0.65) (xy 0.2 0.65) (xy -0.2 0.65) (xy -0.2 -0.65)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Eco2.User")
+		(uuid "692dfdbf-41a8-44dd-ba46-d59c1d1f4bfc")
+	)
+	(fp_poly
+		(pts
+			(xy 1.4 -0.65) (xy 1.4 0.65) (xy 1 0.65) (xy 1 -0.65)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Eco2.User")
+		(uuid "fbb15d0b-ee2d-461b-bb04-92a0ba88ece7")
+	)
+	(fp_line
+		(start -1.6 -0.65)
+		(end 1.6 -0.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9c5cc21a-a235-47ca-a475-fca12cd9b9f5")
+	)
+	(fp_line
+		(start -1.6 0.65)
+		(end -1.6 -0.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "164eac9b-4922-4b89-a3a4-87c9b03bd1aa")
+	)
+	(fp_line
+		(start 1.6 -0.65)
+		(end 1.6 0.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3bbfc38c-bd3d-4f7c-8786-5fa2a963015f")
+	)
+	(fp_line
+		(start 1.6 0.65)
+		(end -1.6 0.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c161be45-f869-49d9-b151-700c4b07ff03")
+	)
+	(pad "1" smd rect
+		(at -1.2 0)
+		(size 0.65 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "709c6037-25b1-4a1d-beca-edad590c0675")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ac5de63f-0e6c-4306-85ce-92fcdb625f32")
+	)
+	(pad "3" smd rect
+		(at 1.2 0)
+		(size 0.65 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ebd0a4df-4362-42d0-a9ab-69ef5d073908")
+	)
+	(embedded_fonts no)
+	(model ":RICK_3DMODEL_DIR:Rick_Crystal/Crystal_SMD3213-3P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

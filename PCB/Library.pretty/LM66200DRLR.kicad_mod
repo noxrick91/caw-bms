@@ -1,0 +1,259 @@
+(footprint "LM66200DRLR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>Small Outline Transistor</b>")
+	(property "Reference" "REF**"
+		(at -2.38 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "280614c4-579f-4843-a6c0-ef74a5b742ae")
+		(effects
+			(font
+				(size 0.748031 0.748031)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LM66200DRLR"
+		(at 2.065 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02ba3b5c-547c-4b8f-b9a7-ed3994f9ae21")
+		(effects
+			(font
+				(size 0.748031 0.748031)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec99dbab-f973-489d-9262-cc831dad47c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba49c0cf-4631-47c0-968a-ab40e34c6c8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f18e7fc-8650-49d3-be40-2d874aa4eb4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "1.6-V to 5.5-V, 40-mΩ, 2.5-A, low-IQ, dual ideal diode"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d73db194-e9b7-4d9c-9ff6-ec76eaa1199a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "776e5b06-66a2-44fc-bd9d-eb5c6ee502ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83466dd9-0596-4648-a5fc-0c33b3caa858")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM66200DRLR/Texas+Instruments/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f01cafc-961d-4b85-b88f-441832b36038")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "LM66200DRLR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a1d730a-fdef-419f-a335-b627d6c5ce37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a38de4b2-d55a-408a-bee7-36be1ff97322")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/LM66200DRLR/Texas+Instruments/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fc735cd-a501-4416-871d-504e6d3e20f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 0.65)
+		(end -1.1 -0.65)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1ff535c-021c-4683-88b1-94ab03b81cb7")
+	)
+	(fp_line
+		(start 1.1 -0.65)
+		(end 1.1 0.65)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ae10ad8-8c27-4ef0-89eb-62c58bb9f38b")
+	)
+	(fp_circle
+		(center -1.27 1.016)
+		(end -1.17 1.016)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "092a922e-cb33-4f97-b28b-1118994a24d1")
+	)
+	(pad "1" smd rect
+		(at -0.75 0.74)
+		(size 0.3 0.67)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.09652)
+		(uuid "cc35aa66-15c2-4122-92a6-8fc449c09bb2")
+	)
+	(pad "2" smd rect
+		(at -0.25 0.74)
+		(size 0.3 0.67)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.09652)
+		(uuid "ed973bb1-5c26-43fe-a9fb-040fd4a7c66b")
+	)
+	(pad "3" smd rect
+		(at 0.25 0.74)
+		(size 0.3 0.67)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.09652)
+		(uuid "ec9b9f40-021d-4274-b74f-c60ad0f90818")
+	)
+	(pad "4" smd rect
+		(at 0.75 0.74)
+		(size 0.3 0.67)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.09652)
+		(uuid "87a02711-62c3-409f-8012-05b56effc509")
+	)
+	(pad "5" smd rect
+		(at 0.75 -0.76)
+		(size 0.3 0.67)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.09652)
+		(uuid "d14add54-5ed0-48f2-b5f3-89e1e595240f")
+	)
+	(pad "6" smd rect
+		(at 0.25 -0.74)
+		(size 0.3 0.67)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.09652)
+		(uuid "bdbcca85-6b48-4083-aea1-dc77b84a543e")
+	)
+	(pad "7" smd rect
+		(at -0.25 -0.74)
+		(size 0.3 0.67)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.09652)
+		(uuid "edcb5df6-1a9b-46b4-94ac-52e31748dcf3")
+	)
+	(pad "8" smd rect
+		(at -0.75 -0.74)
+		(size 0.3 0.67)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.09652)
+		(uuid "ef2ad67b-ba7d-4ae4-9367-042c3d3f57b6")
+	)
+	(embedded_fonts no)
+	(model "${RICK_3DMODEL_DIR}/Rick_Diode/LM66200DRLR--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

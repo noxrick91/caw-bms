@@ -1,0 +1,401 @@
+(footprint "B540C-13-F"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.325 -4.135 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "885f5f4d-58cc-4e06-be79-5192524f64cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "B540C-13-F"
+		(at 4.255 4.135 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8530a940-efa9-4305-af39-ec64a9e26c30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03a986f3-615f-4da2-9c59-ff5b9017a3b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2f1b27e-040f-4ed9-8db3-a3ac22f61e5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Diodes Inc."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee88e35c-fb8a-422f-93c8-edccdc8b4798")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "2.45 mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e371582-a6d8-4b01-a425-bcd5a5582dec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SMC-2 Diodes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b48beaf-6ad0-446c-9f28-8b19fa274a1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3e52efe-95f4-4a67-8bc1-ff32d5eb038d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/B540C-13-F/Diodes+Inc./view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77d6af5f-d802-47c5-bed3-5e826d73503f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "IPC 7351B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a386e3b2-b831-455a-ba54-0edd8594359f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "V1.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "715eeac2-b181-43e8-abaa-c5e0ee38a706")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/B540C-13-F/Diodes+Inc./view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e31c8bc-6794-4b6a-99b6-89b22f69ad58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "B540C-13-F"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19a356e3-42de-48d3-9673-494dbc8d17c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "Schottky Diode 5A 40V 0.55Vf SMC | Diodes Inc B540C-13-F"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0beec04-1b6f-4f26-8717-f14253b8db4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2a8e7c3-5474-437d-8493-be35ba37fa85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "multicomp"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b1011be-98a4-47c2-a6a1-092899ee0ae6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.55 -3.05)
+		(end 3.55 -3.05)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d0a060f-8dc2-4cbd-9cd7-2dd22252c227")
+	)
+	(fp_line
+		(start -3.55 -1.8485)
+		(end -3.55 -3.05)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4855204a-90fb-4860-97c9-994fc5a44404")
+	)
+	(fp_line
+		(start -3.55 1.8485)
+		(end -3.55 3.05)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c3037ad-e1de-4eac-9fd9-936978494aa4")
+	)
+	(fp_line
+		(start -3.55 3.05)
+		(end 3.55 3.05)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ce15d37-91ad-4bec-9ae9-9d9acf7ce041")
+	)
+	(fp_line
+		(start 3.55 -3.05)
+		(end 3.55 -1.8485)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ac154fa-c824-4435-8202-10f23dca24f1")
+	)
+	(fp_line
+		(start 3.55 3.05)
+		(end 3.55 1.8485)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "834feae4-2029-4e8b-bcf9-706273aa1aa7")
+	)
+	(fp_circle
+		(center -5.25 0)
+		(end -5.15 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a517d43e-4075-45ab-a552-98651ab84a41")
+	)
+	(fp_line
+		(start -4.78 -3.3)
+		(end 4.78 -3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "752ee8d9-dd43-4a2b-9272-faa62d243c72")
+	)
+	(fp_line
+		(start -4.78 3.3)
+		(end -4.78 -3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a43a5e52-abf8-4947-be7e-c4186144fc79")
+	)
+	(fp_line
+		(start 4.78 -3.3)
+		(end 4.78 3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "06df8f0f-eb11-4f85-a3d1-cc5b42a6ea38")
+	)
+	(fp_line
+		(start 4.78 3.3)
+		(end -4.78 3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b02ac10-e837-4ee3-9b5e-d064a2892641")
+	)
+	(fp_line
+		(start -3.55 -3.05)
+		(end 3.55 -3.05)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b35e02a-638b-4337-b0dc-bff8a999b50a")
+	)
+	(fp_line
+		(start -3.55 3.05)
+		(end -3.55 -3.05)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98e3e0d2-d2ee-43ce-9c51-4bbd9c31a262")
+	)
+	(fp_line
+		(start 3.55 -3.05)
+		(end 3.55 3.05)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "459feb33-8421-41e5-9e48-1742b6a53b66")
+	)
+	(fp_line
+		(start 3.55 3.05)
+		(end -3.55 3.05)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3050b57-a368-4a88-b980-948e799c8479")
+	)
+	(fp_circle
+		(center -5.25 0)
+		(end -5.15 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "28b5869e-c397-4f57-a389-1ec86a2afbd9")
+	)
+	(pad "A" smd roundrect
+		(at 3.365 0)
+		(size 2.33 3.07)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "8a830275-49ff-4b9a-9605-77ad0eedb3a3")
+	)
+	(pad "C" smd roundrect
+		(at -3.365 0)
+		(size 2.33 3.07)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "96e14cf5-523a-45c5-ac28-13dd876356d4")
+	)
+	(embedded_fonts no)
+	(model "${RICK_3DMODEL_DIR}/Rick_Diode/B540C-13-F.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
