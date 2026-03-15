@@ -2596,7 +2596,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 50v"
+		(property "Value" "4.7uF 50V"
 			(at 115.824 94.488 90)
 			(effects
 				(font
@@ -3599,7 +3599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 50v"
+		(property "Value" "4.7uF 50V"
 			(at 109.474 94.488 90)
 			(effects
 				(font
@@ -3668,7 +3668,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "HV1C337M0607PZ"
 			(at 195.072 94.488 90)
 			(effects
 				(font
@@ -3737,7 +3737,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01uF 50v"
+		(property "Value" "0.01uF 50V"
 			(at 122.174 94.488 90)
 			(effects
 				(font

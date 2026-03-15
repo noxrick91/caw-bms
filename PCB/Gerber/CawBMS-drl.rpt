@@ -1,5 +1,5 @@
 Drill report for CawBMS.kicad_pcb
-Created on 2024-07-11T14:27:06+0800
+Created on 2026-03-11T04:27:48+0800
 
 Copper Layer Stackup:
     =============================================================
@@ -12,13 +12,13 @@ Copper Layer Stackup:
 Drill file 'CawBMS-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.305mm  0.0120"  (125 holes)
+    T1  0.305mm  0.0120"  (177 holes)
     T2  0.400mm  0.0157"  (32 holes)
-    T3  0.508mm  0.0200"  (36 holes)
+    T3  0.508mm  0.0200"  (46 holes)
     T4  2.200mm  0.0866"  (4 holes)
     T5  2.500mm  0.0984"  (4 holes)
 
-    Total plated holes count 201
+    Total plated holes count 263
 
 
 Drill file 'CawBMS-NPTH.drl' contains

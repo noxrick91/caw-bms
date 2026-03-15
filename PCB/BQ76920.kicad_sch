@@ -3588,6 +3588,12 @@
 		)
 	)
 	(junction
+		(at 142.24 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0062ead8-fdeb-4780-a082-9fade959133b")
+	)
+	(junction
 		(at 199.39 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4746,6 +4752,16 @@
 			(type default)
 		)
 		(uuid "2cef3aa2-bbea-40eb-8015-f94c93022f4a")
+	)
+	(wire
+		(pts
+			(xy 142.24 157.48) (xy 142.24 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e34655e-facd-4e0a-80b7-12f6bdaf48a1")
 	)
 	(wire
 		(pts
@@ -6379,7 +6395,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 80.01) (xy 124.46 80.01)
+			(xy 118.11 80.01) (xy 124.46 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6796,6 +6812,16 @@
 			(type default)
 		)
 		(uuid "ce9ae3d8-17f8-4289-bfd5-661798e45e08")
+	)
+	(wire
+		(pts
+			(xy 142.24 163.83) (xy 142.24 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00cde97-6c24-4b26-8519-ebb6efa5d153")
 	)
 	(wire
 		(pts
@@ -7488,7 +7514,7 @@
 		(uuid "0003e617-3c0c-40be-8c21-1f535a6de413")
 	)
 	(label "SRN"
-		(at 144.78 116.84 270)
+		(at 152.4 116.84 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7678,7 +7704,7 @@
 		(uuid "f8176bd6-6de6-429f-bc1b-417c0f90d7b1")
 	)
 	(label "SRP"
-		(at 152.4 116.84 270)
+		(at 144.78 116.84 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7686,28 +7712,6 @@
 			(justify right bottom)
 		)
 		(uuid "fd84e145-5bca-4342-a329-9b837d1b216d")
-	)
-	(global_label "PACK+"
-		(shape bidirectional)
-		(at 95.25 154.94 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c11496f-2485-4578-83a2-86a5cf449848")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 144.3725 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "PACK+"
 		(shape bidirectional)
@@ -7733,22 +7737,22 @@
 	)
 	(global_label "PACK-"
 		(shape bidirectional)
-		(at 95.25 173.99 270)
+		(at 95.25 154.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3c347b08-aca1-4ae0-989c-e4ce1517ae3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 184.5575 90)
+			(at 95.25 144.3725 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8078,7 +8082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220ohm"
+		(property "Value" "BLM18EG221SN1D"
 			(at 182.88 121.92 0)
 			(effects
 				(font
@@ -8287,7 +8291,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V"
 			(at 214.63 161.29 90)
 			(effects
 				(font
@@ -8355,12 +8359,13 @@
 				)
 			)
 		)
-		(property "Value" "0.0015"
+		(property "Value" "HoJLRX2512-2W-1.5mR-1%"
 			(at 148.59 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
@@ -8566,8 +8571,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_200V"
-			(at 240.03 38.1 90)
+		(property "Value" "ES1D"
+			(at 232.918 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8713,7 +8718,7 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
-		(at 123.19 80.01 270)
+		(at 118.11 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8721,7 +8726,7 @@
 		(dnp no)
 		(uuid "0f832844-e841-451d-a83b-8c632af18d3d")
 		(property "Reference" "#PWR045"
-			(at 116.84 80.01 0)
+			(at 111.76 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8730,7 +8735,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 80.01 0)
+			(at 114.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8738,7 +8743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 80.01 0)
+			(at 118.11 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +8752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 80.01 0)
+			(at 118.11 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8756,7 +8761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 80.01 0)
+			(at 118.11 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,7 +8955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SI2308A"
+		(property "Value" "AO3400A"
 			(at 145.288 145.542 90)
 			(effects
 				(font
@@ -9021,7 +9026,7 @@
 				)
 			)
 		)
-		(property "Value" "NTC 10k"
+		(property "Value" "NCP15XH103F03RC"
 			(at 104.14 78.74 90)
 			(effects
 				(font
@@ -9342,7 +9347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF 50V"
 			(at 100.33 90.17 0)
 			(effects
 				(font
@@ -9612,7 +9617,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "289280c4-adba-4657-b234-a48121434d17")
 		(property "Reference" "H5"
@@ -9690,7 +9695,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener_5.6V"
+		(property "Value" "EDZVT2R5.6B"
 			(at 49.53 113.03 90)
 			(effects
 				(font
@@ -9825,7 +9830,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener_5.6V"
+		(property "Value" "EDZVT2R5.6B"
 			(at 49.53 130.81 90)
 			(effects
 				(font
@@ -9893,12 +9898,13 @@
 				)
 			)
 		)
-		(property "Value" "0.0015"
-			(at 140.97 137.16 90)
+		(property "Value" "HoJLRX2512-2W-1.5mR-1%"
+			(at 142.748 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
@@ -9970,7 +9976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V"
 			(at 158.75 121.92 90)
 			(effects
 				(font
@@ -10207,7 +10213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220ohm"
+		(property "Value" "BLM18EG221SN1D"
 			(at 218.44 121.92 0)
 			(effects
 				(font
@@ -10283,7 +10289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 44.45 83.82 0)
 			(effects
 				(font
@@ -10558,7 +10564,7 @@
 		(dnp no)
 		(uuid "461b7662-a31d-490a-bcdd-889c2158b5c8")
 		(property "Reference" "R40"
-			(at 217.17 106.68 90)
+			(at 216.916 106.172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10566,7 +10572,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 217.17 109.22 90)
+			(at 216.408 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10619,6 +10625,75 @@
 			(project "CawBMS"
 				(path "/4a89dd5e-80e0-469e-b1bd-d2c2db4c0387/7188767d-625f-4b5b-9b89-63af2d6cd4b0"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:R_Small_US")
+		(at 142.24 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46df3c07-7a95-4a9f-8bd3-66d080733850")
+		(property "Reference" "R12"
+			(at 144.78 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.43 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 142.24 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 142.24 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f0ed500-87a2-4d06-96d2-41e0a4e8f4cc")
+		)
+		(pin "2"
+			(uuid "5d0e6b86-59e1-410a-90ac-51c30400c833")
+		)
+		(instances
+			(project "CawBMS"
+				(path "/4a89dd5e-80e0-469e-b1bd-d2c2db4c0387/7188767d-625f-4b5b-9b89-63af2d6cd4b0"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10706,12 +10781,13 @@
 				)
 			)
 		)
-		(property "Value" "0.0015"
+		(property "Value" "HoJLRX2512-2W-1.5mR-1%"
 			(at 140.97 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
@@ -10883,7 +10959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220ohm"
+		(property "Value" "BLM18EG221SN1D"
 			(at 168.91 121.92 0)
 			(effects
 				(font
@@ -11104,7 +11180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF 50V"
 			(at 125.73 78.74 90)
 			(effects
 				(font
@@ -11221,13 +11297,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:GND")
+		(at 95.25 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60b25a43-9aab-480b-bd6d-ee01fd73ae76")
+		(property "Reference" "#PWR032"
+			(at 95.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2df4c3bb-fcd2-4efd-82d6-069826ff8456")
+		)
+		(instances
+			(project "CawBMS"
+				(path "/4a89dd5e-80e0-469e-b1bd-d2c2db4c0387/7188767d-625f-4b5b-9b89-63af2d6cd4b0"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:MountingHole_Pad")
 		(at 260.35 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "697f3c30-1cb9-4baa-87e6-e8a0825179e3")
 		(property "Reference" "H7"
@@ -11304,7 +11445,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "0.1uF 50V"
 			(at 103.505 165.735 90)
 			(effects
 				(font
@@ -11379,7 +11520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 44.45 119.38 0)
 			(effects
 				(font
@@ -11516,7 +11657,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100 0.1%"
 			(at 154.94 129.54 90)
 			(effects
 				(font
@@ -11600,7 +11741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 44.45 66.04 0)
 			(effects
 				(font
@@ -11676,7 +11817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 44.45 48.26 0)
 			(effects
 				(font
@@ -11734,7 +11875,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "75a26b4d-b491-48af-9279-92fdad978033")
 		(property "Reference" "H6"
@@ -12176,7 +12317,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220ohm"
+		(property "Value" "BLM18EG221SN1D"
 			(at 205.74 121.92 0)
 			(effects
 				(font
@@ -12245,8 +12386,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TVS_24V"
-			(at 241.3 66.04 90)
+		(property "Value" "SMAJ24CA"
+			(at 238.252 66.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12791,7 +12932,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener_5.6V"
+		(property "Value" "EDZVT2R5.6B"
 			(at 49.53 59.69 90)
 			(effects
 				(font
@@ -13172,7 +13313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 50V"
 			(at 120.65 93.98 0)
 			(effects
 				(font
@@ -13305,7 +13446,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100 0.1%"
 			(at 147.32 129.54 90)
 			(effects
 				(font
@@ -13382,7 +13523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V"
 			(at 246.38 40.64 0)
 			(effects
 				(font
@@ -14012,7 +14153,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V"
 			(at 184.15 161.29 90)
 			(effects
 				(font
@@ -14172,7 +14313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V"
 			(at 151.13 121.92 90)
 			(effects
 				(font
@@ -14230,7 +14371,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dc980ed3-a2ba-4ab7-88f8-7beb83ade2bc")
 		(property "Reference" "H8"
@@ -14501,6 +14642,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:GND")
+		(at 142.24 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e86581be-0226-457c-b481-e8fac4a4e4c7")
+		(property "Reference" "#PWR033"
+			(at 142.24 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c63c4152-515b-44fe-bd40-2f148f943e59")
+		)
+		(instances
+			(project "CawBMS"
+				(path "/4a89dd5e-80e0-469e-b1bd-d2c2db4c0387/7188767d-625f-4b5b-9b89-63af2d6cd4b0"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:C_Small")
 		(at 88.9 87.63 0)
 		(unit 1)
@@ -14587,7 +14793,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V"
 			(at 246.38 33.02 0)
 			(effects
 				(font
@@ -14721,8 +14927,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener_16V"
-			(at 220.98 128.27 90)
+		(property "Value" "BZX585-B16,115"
+			(at 227.584 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14790,7 +14996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V"
 			(at 143.51 121.92 90)
 			(effects
 				(font
@@ -14924,7 +15130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener_5.6V"
+		(property "Value" "EDZVT2R5.6B"
 			(at 49.53 77.47 90)
 			(effects
 				(font
@@ -15000,7 +15206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 44.45 101.6 0)
 			(effects
 				(font
@@ -15124,7 +15330,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f67a1576-8c51-4d1e-ac75-d5afbfd48529")
 		(property "Reference" "D9"
 			(at 210.82 106.68 90)
@@ -15135,8 +15340,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_100V"
-			(at 210.82 109.22 90)
+		(property "Value" "1N4148WS T4"
+			(at 193.802 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15222,7 +15427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener_5.6V"
+		(property "Value" "EDZVT2R5.6B"
 			(at 49.53 95.25 90)
 			(effects
 				(font

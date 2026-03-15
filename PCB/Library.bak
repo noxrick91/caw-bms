@@ -4118,7 +4118,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Q13FC13500004"
+	(symbol "Q13FC1350000400"
 		(pin_names
 			(offset 0.254)
 		)
@@ -4133,7 +4133,7 @@
 				)
 			)
 		)
-		(property "Value" "Q13FC13500004"
+		(property "Value" "Q13FC1350000400"
 			(at 5.08 -4.445 0)
 			(effects
 				(font
@@ -4141,7 +4141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rick_Crystal:Q13FC13500004"
+		(property "Footprint" "Rick_Crystal:Q13FC1350000400"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4151,7 +4151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Q13FC13500004"
+		(property "Datasheet" "Q13FC1350000400"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4170,7 +4170,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Q13FC13500004"
+		(property "ki_keywords" "Q13FC1350000400"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4188,7 +4188,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Q13FC13500004_1_1"
+		(symbol "Q13FC1350000400_1_1"
 			(polyline
 				(pts
 					(xy 2.54 -1.905) (xy 2.54 1.905)
@@ -4298,7 +4298,7 @@
 				)
 			)
 		)
-		(symbol "Q13FC13500004_1_2"
+		(symbol "Q13FC1350000400_1_2"
 			(polyline
 				(pts
 					(xy -2.54 6.35) (xy 2.54 6.35)

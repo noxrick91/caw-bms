@@ -1,9 +1,9 @@
-(footprint "Q13FC1350000400"
+(footprint "Q13FC13500004"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(tags "Q13FC1350000400 ")
+	(tags "Q13FC13500004")
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(unlocked yes)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Q13FC1350000400"
+	(property "Value" "Q13FC13500004"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -30,7 +30,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "Q13FC1350000400"
+	(property "Datasheet" "Q13FC13500004"
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
